@@ -256,7 +256,7 @@ async function checkLoginCredentials(email, password) {
 // using array untuk menyimpan jumlah percobaan sebagai ganti repository
 let vault = {};
 // set lama hukuman karena gagal percobaan sebanyak 5 kali
-const maxPunishment = 15000;
+const maxPunishment = 1800000;
 
 /**
  * Update login attempts for a given email
